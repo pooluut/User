@@ -1,0 +1,9 @@
+{
+    "cmd": ["$file"],
+    "file_regex": "^\\*\\* Error: (.*\\.v)\\(([0-9]*)\\)",
+    "encoding": "utf-8",
+    "working_dir" : "${project_path}",
+    "selector": "source.dosbatch"
+
+}
+

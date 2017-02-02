@@ -1,0 +1,15 @@
+{
+    "cmd": ["vlog", "$file"],
+    "encoding": "utf-8",
+    "working_dir" : "${project_path}",
+    "selector": "source.wave" ,
+
+    "variants":
+    [
+        {
+            "name": "Run",
+            "cmd": ["vsim","-gui","-do","do do/sim_wave_cmd.do"]
+        }
+    ]
+
+}

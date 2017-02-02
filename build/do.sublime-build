@@ -1,0 +1,7 @@
+{
+    "cmd": ["modelsim","-do", "$file"],
+    "encoding": "utf-8",
+    "working_dir" : "${project_path}",
+	"selector": "source.tcl"
+
+}

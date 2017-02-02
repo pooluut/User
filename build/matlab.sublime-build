@@ -1,0 +1,5 @@
+{
+    "cmd": ["matlab","-nodesktop","-nosplash","-r","$file_base_name"],
+	"file_regex": "^*.m$",    
+	"selector": "source.matlab",
+}
