@@ -31,6 +31,8 @@
     { "keys": ["alt+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/User/delete_left_subword.sublime-macro"} },
     { "keys": ["alt+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/User/delete_right_subword.sublime-macro"} },
 
+    { "keys": ["ctrl+f1"], "command": "jump_back" },
+
     // insert date time
     { "keys": ["ctrl+f5", "ctrl+f5"], "command": "insert_date", "args": {"format": "%Y-%m-%d %H:%M:%S"} },
 
